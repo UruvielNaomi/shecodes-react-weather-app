@@ -28,7 +28,7 @@ export default function Weather(props) {
               type="text"
               id="city-input"
               placeholder="Enter a city"
-              autocomplete="off"
+              autoComplete="off"
             />
             <input className="search-button" type="submit" value="Search" />
           </form>

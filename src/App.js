@@ -11,7 +11,7 @@ export default function App() {
         <div className="row">
           <div className="col-6">
             <Weather defaultCity="Lausanne"/>
-            <div class="row">
+            <div className="row">
                     <div className="col-2">
                       <Forecast celsius={17} day="Mon" />
                     </div>
