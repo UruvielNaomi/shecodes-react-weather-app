@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import img from "./images/clouds-icon.png";
 import axios from "axios";
 import "./Weather.css";
+import Date from "./Date";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState ({ready: false});
@@ -15,6 +16,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       city: response.data.name,
+      date: new Date(response.data.dt * 1000),
     });
   }
 
@@ -41,7 +43,9 @@ export default function Weather(props) {
         <div className="prediction">
           <div className="row">
             <div className="col-6">
-              <div id="day-time">Updated on: Sat 19:48</div>
+              <div id="day-time">
+                <Date date={weatherData.date} />
+              </div>
             </div>
             <div className="col-3">Humidity</div>
             <div className="col-3">Wind</div>
