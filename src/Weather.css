@@ -1,16 +1,23 @@
-.boldTemp {
+.Weather .boldTemp {
     font-weight: bold;
 }
 
-.lightTemp{
+.Weather .lightTemp{
     font-weight: lighter;
+  }
+.Weather .highlightToday {
+  margin-top: 10px;
 }
-
-.no-events {
+  
+.Weather .no-events {
     pointer-events: none;
-}
+  }
 
-.search-bar {
+.Weather .prediction {
+      font-size: 11px;
+    }
+  
+.Weather .search-bar {
     border: none;
     background: #eeee;
     border-radius: 30px;
@@ -22,7 +29,7 @@
     font-size: 12px;
   }
   
-.search-button {
+.Weather .search-button {
     position: relative;
     left: 18px;
     font-size: 12px;
@@ -32,59 +39,49 @@
     background: #bae3ee;
   }
   
-.search-button:hover {
+.Weather .search-button:hover {
     background: #5fd3f3;
     cursor: pointer;
   }
 
-.today-detail {
+.Weather .small-image {
+      display: block;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      max-width: 25px;
+    }
+
+.Weather .today-detail {
     position: relative;
     left: 5px;
   }
   
-.today-weather {
+.Weather .today-weather {
     margin: 15px 0px;
   }
   
-.prediction {
-    font-size: 11px;
-  }
-  
-.temperature-today {
+.Weather .temperature-today {
     position: relative;
     left: 10px;
     font-size: 34px;
     margin-bottom: 10px;
   }
 
-.small-image {
-    display: block;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    max-width: 25px;
-  }
-
-.temperature-prediction-max, .temperature-prediction-min {
+.Weather .temperature-prediction-max, .temperature-prediction-min {
     font-size: 9px;
   }
 
-.temperature-prediction-max {
+.Weather .temperature-prediction-max {
     color:#1f2931
   }
-  .temperature-prediction-min {
+
+.Weather .temperature-prediction-min {
     color: #7a8792;
   }
 
-.text {
+.Weather .text {
     font-size: 11px;
     font-weight: 500;
-  }
-
-  .background-image {
-    position: relative;
-    left: 30px;
-    top: -17px;
-    width: 300px;
   }
   
 #city {
