@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import img from "./images/clouds-icon.png";
 import axios from "axios";
 import "./Weather.css";
-import Date from "./Date";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState ({ready: false});
@@ -44,7 +44,7 @@ export default function Weather(props) {
           <div className="row">
             <div className="col-6">
               <div id="day-time">
-                <Date date={weatherData.date} />
+                <FormattedDate date={weatherData.date} />
               </div>
             </div>
             <div className="col-3">Humidity</div>
