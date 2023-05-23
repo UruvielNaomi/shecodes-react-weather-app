@@ -7,12 +7,12 @@ export default function CelsiusFahrenheit(props) {
     function showFahrenheit(event) {
         event.preventDefault();
         setUnit("fahrenheit");
-    };
+    }
 
     function showCelsius(event) {
         event.preventDefault();
         setUnit("celsius");
-    };
+    }
 
     if (unit === "celsius") {
     return (
@@ -31,10 +31,10 @@ export default function CelsiusFahrenheit(props) {
             <span className="temperature-today">
                   <span id="temperature">{Math.round(fahrenheit)}</span>
     
-                  <a href="/" className="celsius-element fw-lighter">
+                  <a href="/" className="celsius-element fw-lighter" onClick={showCelsius}>
                     °C
                   </a> <span> </span>
-                  <span className="fahrenheit-element fw-bolder" onClick={showCelsius}>°F</span>
+                  <span className="fahrenheit-element fw-bolder">°F</span>
                 </span>
         );
     }
