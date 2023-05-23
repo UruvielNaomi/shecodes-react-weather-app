@@ -1,10 +1,4 @@
-.Weather .boldTemp {
-    font-weight: bold;
-}
 
-.Weather .lightTemp{
-    font-weight: lighter;
-  }
 .Weather .highlightToday {
   margin-top: 10px;
 }
@@ -103,10 +97,7 @@
     text-transform: lowercase;
   }
   
-  #celsius-element,
-  #fahrenheit-element {
-    font-size: 12px;
-  }
+  
   
 #weather-forecast {
     margin-bottom: 20px;

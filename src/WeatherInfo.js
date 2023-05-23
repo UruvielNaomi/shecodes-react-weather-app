@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon"
+import CelsiusFahrenheit from "./CelsiusFahrenheit";
 import "./WeatherInfo.css";
 
 export default function WeatherInfo(props){
@@ -35,14 +36,8 @@ export default function WeatherInfo(props){
           </div>
           <div className="highlightToday">
             <WeatherIcon code={props.data.icon} size={50}/>
-            <span className="temperature-today">
-              <span id="temperature">{props.data.temperature}</span>
-              <span id="celsius-element" className="boldTemp no-events">
-                °C
-              </span>
-              <span id="fahrenheit-element">°F</span>
-          </span>
-            
+            <CelsiusFahrenheit celsius={props.data.temperature}/>
+                       
           </div>
         </div>
         </div>
