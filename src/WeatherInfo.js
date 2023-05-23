@@ -1,5 +1,4 @@
 import React from "react";
-import img from "./images/clouds-icon.png";
 import FormattedDate from "./FormattedDate";
 
 export default function WeatherInfo(props){
@@ -33,7 +32,7 @@ export default function WeatherInfo(props){
             </div>
           </div>
           <div className="highlightToday">
-            <img className="image-today" src={img} alt="weather" />
+            <img className="image-today" src={props.data.iconUrl} alt="weather" />
             <span className="temperature-today">
               <span id="temperature">{props.data.temperature}</span>
               <span id="celsius-element" className="boldTemp no-events">
