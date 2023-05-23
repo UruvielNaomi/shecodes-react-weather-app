@@ -1,0 +1,6 @@
+.WeatherInfo .temperature-today {
+    position: relative;
+    left: 10px;
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
