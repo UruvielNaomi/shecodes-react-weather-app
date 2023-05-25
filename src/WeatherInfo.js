@@ -35,7 +35,7 @@ export default function WeatherInfo(props){
             </div>
           </div>
           <div className="highlightToday">
-            <WeatherIcon code={props.data.icon} size={50}/>
+            <WeatherIcon code={props.data.icon} size={35}/>
             <CelsiusFahrenheit celsius={props.data.temperature}/>
                        
           </div>
