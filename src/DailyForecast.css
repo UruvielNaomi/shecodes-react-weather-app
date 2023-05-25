@@ -4,16 +4,26 @@
     font-weight: 500;
   }
 
-  .DailyForecast .image {
+.DailyForecast .forecastDay {
+  font-weight: 600;
+}
+
+.DailyForecast .image {
     margin-top: 5px;
     margin-bottom: 2px;
   }
 
-  .DailyForecast .minMax {
-    font-size: 9px;
+.DailyForecast .minTemp, .maxTemp {
+    font-size: 10px;
   }
+
+.DailyForecast .minTemp {
+  color: #85a8c4;
+  margin-left: 5px;
+}
   
-  .DailyForecast .prediction-small {
+  
+.DailyForecast .prediction-small {
     display: block;
     margin: 0 auto;
     text-align: center;
