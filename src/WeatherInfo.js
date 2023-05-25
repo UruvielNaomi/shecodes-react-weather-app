@@ -9,7 +9,7 @@ export default function WeatherInfo(props){
         <div className="WeatherInfo">
             <div className="row">
           <div className="col-12">
-            <div id="city">{props.data.city}</div>
+            <div className="searchedCity">{props.data.city}</div>
           </div>
       
         <div className="prediction">

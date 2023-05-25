@@ -1,16 +1,3 @@
-
-.Weather .highlightToday {
-  margin-top: 10px;
-}
-  
-.Weather .no-events {
-    pointer-events: none;
-  }
-
-.Weather .prediction {
-      font-size: 11px;
-    }
-  
 .Weather .search-bar {
     border: none;
     background: #eeee;
@@ -36,70 +23,4 @@
 .Weather .search-button:hover {
     background: #5fd3f3;
     cursor: pointer;
-  }
-
-.Weather .small-image {
-      display: block;
-      margin-top: 2px;
-      margin-bottom: 2px;
-      max-width: 25px;
-    }
-
-.Weather .today-detail {
-    position: relative;
-    left: 5px;
-  }
-  
-.Weather .today-weather {
-    margin: 15px 0px;
-  }
-  
-.Weather .temperature-prediction-max, .temperature-prediction-min {
-    font-size: 9px;
-  }
-
-.Weather .temperature-prediction-max {
-    color:#1f2931
-  }
-
-.Weather .temperature-prediction-min {
-    color: #7a8792;
-  }
-
-.Weather .text {
-    font-size: 11px;
-    font-weight: 500;
-  }
-  
-#city {
-    font-size: 18px;
-  }
-
-  #description::first-letter {
-    text-transform: capitalize;
-  }
-
-#location-text {
-    font-size: 10px;
-    position: absolute;
-    left: -22px;
-    top: 5px;
-  }
-
-.image-today {
-    position: relative;
-    left: 5px;
-    top: -8px;
-    max-width: 50px;
-  }
-  
-#wind {
-    text-transform: lowercase;
-  }
-  
-  
-  
-#weather-forecast {
-    margin-bottom: 20px;
-    text-align: center;
   }

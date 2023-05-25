@@ -1,6 +1,24 @@
+
+.WeatherInfo .highlightToday {
+  margin-top: 10px;
+}
+
+.WeatherInfo .prediction {
+  font-size: 11px;
+}
+
 .WeatherInfo .temperature-today {
     position: relative;
     left: 10px;
     font-size: 34px;
     margin-bottom: 10px;
   }
+
+.WeatherInfo .searchedCity {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#description::first-letter {
+  text-transform: capitalize;
+}
