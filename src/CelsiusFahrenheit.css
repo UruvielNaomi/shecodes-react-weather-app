@@ -6,3 +6,10 @@
 .CelsiusFahrenheit, .celsius-element {
     padding-left: 5px;
 }
+
+.temperature-today {
+  position: relative;
+  left: 10px;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
