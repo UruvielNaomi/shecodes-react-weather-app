@@ -8,7 +8,7 @@ export default function WeatherForecast(props) {
     console.log(response.data);
   }
   
-  const apiKey = "5354b60afda2b7800186c06153932396";
+  let apiKey = "87a61f8ed4b817c3a5de30ad18cd9aa5";
   let lon = props.coordinates.lon;
   let lat = props.coordinates.lat;
   let apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&&appid=${apiKey}&units=metric`
