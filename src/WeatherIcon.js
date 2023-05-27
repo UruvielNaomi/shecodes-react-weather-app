@@ -31,7 +31,7 @@ const codeMapping = {
                 icon={codeMapping[props.code]}
                 color="black"
                 size={props.size}
-                animate="true"
+                animate={true}
             />
         </span>
     

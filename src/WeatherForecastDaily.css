@@ -1,0 +1,17 @@
+.WeatherForecastDaily .forecastDay {
+    font-weight: 600;
+  }
+  
+  .WeatherForecastDaily .image {
+      margin-top: 5px;
+      margin-bottom: 2px;
+    }
+  
+  .WeatherForecastDaily .minTemp, .maxTemp {
+      font-size: 10px;
+    }
+  
+  .WeatherForecastDaily .minTemp {
+    color: #85a8c4;
+    margin-left: 3px;
+  }
